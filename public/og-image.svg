@@ -16,7 +16,7 @@
   <rect x="90" y="100" width="240" height="240" rx="32" fill="url(#accent)"/>
   <path d="M160 164h90l50 50v92c0 12-10 22-22 22H160c-12 0-22-10-22-22V186c0-12 10-22 22-22Z" fill="#fff" opacity="0.15"/>
   <path d="M202 164v50h50" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="390" y="170" fill="#e2e8f0" font-size="64" font-family="Arial, sans-serif" font-weight="700">Project Flow</text>
+  <text x="390" y="170" fill="#e2e8f0" font-size="64" font-family="Arial, sans-serif" font-weight="700">ConvertHub</text>
   <text x="390" y="245" fill="#94a3b8" font-size="34" font-family="Arial, sans-serif">Private, browser-only file conversion</text>
   <text x="390" y="315" fill="#cbd5e1" font-size="28" font-family="Arial, sans-serif">Image to PDF • PDF to Image • local-first SaaS UX</text>
 </svg>

@@ -51,8 +51,8 @@ export function Seo({ title, description, path = '/', structuredData }: SeoProps
       structuredData ?? {
         '@context': 'https://schema.org',
         '@type': 'WebSite',
-        name: 'Project Flow',
-        url: `https://project-flow.local${path}`,
+        name: "ConvertHub",
+        url: `https://convert-hub-six.vercel.app${path}`,
         description,
       },
     );

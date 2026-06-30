@@ -9,7 +9,7 @@ export default function PrivacyPolicyPage() {
     <>
       <Seo
         title={`${siteName} | Privacy Policy`}
-        description="Privacy policy for Project Flow, a browser-only file conversion application."
+        description="Privacy policy for ConvertHub, a browser-only file conversion application."
         path="/privacy-policy"
       />
 

@@ -20,7 +20,7 @@ export default function App() {
       <NotificationsProvider>
         <BrowserRouter>
           <ScrollToTop />
-          <Suspense fallback={<LoadingScreen label="Loading Project Flow" />}>
+          <Suspense fallback={<LoadingScreen label="Loading ConvertHub" />}>
             <Routes>
               <Route path="/" element={<AppLayout />}>
                 <Route index element={<HomePage />} />

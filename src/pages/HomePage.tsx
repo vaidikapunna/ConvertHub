@@ -41,7 +41,7 @@ export default function HomePage() {
               Convert images and PDFs without sending files to a server.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
-              Project Flow delivers a SaaS-style experience with browser-native conversion, responsive layouts, and accessible controls for everyday file work.
+              ConvertHub delivers a SaaS-style experience with browser-native conversion, responsive layouts, and accessible controls for everyday file work.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button as="a" href="/image-tools" icon={<SparkIcon className="h-4 w-4" />}>

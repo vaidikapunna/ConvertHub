@@ -24,8 +24,8 @@ export function Navbar() {
             <LogoMark className="h-8 w-8" />
           </div>
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.28em] text-cyan-600 dark:text-cyan-400">Project Flow</p>
-            <p className="text-xs text-slate-500 dark:text-slate-400">Browser-first file converter</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.28em] text-cyan-600 dark:text-cyan-400">ConvertHub</p>
+            <p className="text-xs text-slate-500 dark:text-slate-400">Browser-based file converter</p>
           </div>
         </NavLink>
 

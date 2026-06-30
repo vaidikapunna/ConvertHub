@@ -1,6 +1,6 @@
-# Project Flow
+# ConvertHub
 
-Project Flow is a frontend-only file converter built with React 19, Vite, TypeScript, Tailwind CSS, React Router, pdf-lib, pdfjs-dist, JSZip, Framer Motion, and the Browser Canvas API.
+ConvertHub is a frontend-only file converter built with React 19, Vite, TypeScript, Tailwind CSS, React Router, pdf-lib, pdfjs-dist, JSZip, Framer Motion, and the Browser Canvas API.
 
 ## Features
 

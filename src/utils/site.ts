@@ -1,6 +1,6 @@
 import type { ToolCard } from '../types/converter';
 
-export const siteName = 'Project Flow';
+export const siteName = "ConvertHub";
 export const siteUrl = 'https://project-flow.local';
 
 export const imageToolCards: ToolCard[] = [

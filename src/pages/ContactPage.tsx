@@ -8,12 +8,12 @@ import { Input } from '../components/ui/Input';
 import { useNotifications } from '../hooks/useNotifications';
 import { siteName } from '../utils/site';
 
-const supportEmail = 'support@project-flow.local';
+const supportEmail = 'support@convert-hub-six.vercel.app';
 
 export default function ContactPage() {
   const { pushNotification } = useNotifications();
   const [message, setMessage] = useState('');
-  const [subject, setSubject] = useState('Project Flow inquiry');
+  const [subject, setSubject] = useState('ConvertHub inquiry');
 
   const copyEmail = async () => {
     await navigator.clipboard.writeText(supportEmail);
@@ -28,7 +28,7 @@ export default function ContactPage() {
     <>
       <Seo
         title={`${siteName} | Contact`}
-        description="Get in touch with the Project Flow team for support, feedback, or partnership questions."
+        description="Get in touch with the ConvertHub team for support, feedback, or partnership questions."
         path="/contact"
       />
 

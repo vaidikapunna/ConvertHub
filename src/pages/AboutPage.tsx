@@ -9,7 +9,7 @@ export default function AboutPage() {
     <>
       <Seo
         title={`${siteName} | About`}
-        description="Learn how Project Flow keeps file conversion private, accessible, and browser-native."
+        description="Learn how ConvertHub keeps file conversion private, accessible, and browser-native."
         path="/about"
       />
 
@@ -17,7 +17,7 @@ export default function AboutPage() {
         <SectionHeading
           eyebrow="About"
           title="Built to feel like a modern SaaS product, but run like a local tool"
-          description="Project Flow combines route-based code splitting, lightweight browser APIs, and a clean design system to create a private conversion workspace."
+          description="ConvertHub combines route-based code splitting, lightweight browser APIs, and a clean design system to create a private conversion workspace."
         />
 
         <div className="grid gap-6 lg:grid-cols-2">
