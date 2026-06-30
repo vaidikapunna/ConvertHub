@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --page-bg: #f8fafc;
+  --page-fg: #020617;
+  --page-muted: #475569;
+  --page-border: rgba(148, 163, 184, 0.35);
+  --brand: #0f766e;
+  --brand-2: #06b6d4;
+}
+
+.dark {
+  color-scheme: dark;
+  --page-bg: #020617;
+  --page-fg: #f8fafc;
+  --page-muted: #94a3b8;
+  --page-border: rgba(51, 65, 85, 0.8);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top right, rgba(14, 165, 233, 0.15), transparent 35%),
+    radial-gradient(circle at bottom left, rgba(20, 184, 166, 0.12), transparent 28%),
+    var(--page-bg);
+  color: var(--page-fg);
+  font-family:
+    'Aptos',
+    'Segoe UI Variable',
+    'SF Pro Display',
+    system-ui,
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(34, 211, 238, 0.3);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(18px);
+}
+
+.dark .glass-panel {
+  background: rgba(2, 6, 23, 0.72);
+}
+
+.hero-grid {
+  background-image: radial-gradient(circle at 1px 1px, rgba(148, 163, 184, 0.2) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid rgb(34 211 238 / 0.9);
+  outline-offset: 3px;
+}
