@@ -50,6 +50,9 @@ export default function HomePage() {
               <Button as="a" href="/pdf-tools" variant="secondary" icon={<ArrowRightIcon className="h-4 w-4" />}>
                 Explore PDF Tools
               </Button>
+              <Button as="a" href="/merge-pdf" variant="secondary" icon={<DownloadIcon className="h-4 w-4" />}>
+                Merge PDFs
+              </Button>
             </div>
             <div className="mt-8 flex flex-wrap gap-2">
               {highlights.map((item) => (

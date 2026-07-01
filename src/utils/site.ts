@@ -26,6 +26,12 @@ export const imageToolCards: ToolCard[] = [
 
 export const pdfToolCards: ToolCard[] = [
   {
+    title: 'Merge PDF',
+    description: 'Combine multiple PDF files locally with drag-and-drop ordering and instant download.',
+    href: '/merge-pdf',
+    status: 'ready',
+  },
+  {
     title: 'PDF to Image',
     description: 'Preview pages, select specific pages, and export them as JPG or PNG with ZIP support.',
     href: '/pdf-tools',

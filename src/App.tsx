@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage';
 
 const ImageToolsPage = lazy(() => import('./pages/ImageToolsPage'));
 const PdfToolsPage = lazy(() => import('./pages/PdfToolsPage'));
+const MergePdfPage = lazy(() => import('./pages/MergePdfPage'));
 const DocumentToolsPage = lazy(() => import('./pages/DocumentToolsPage'));
 const AboutPage = lazy(() => import('./pages/AboutPage'));
 const PrivacyPolicyPage = lazy(() => import('./pages/PrivacyPolicyPage'));
@@ -24,6 +25,7 @@ export default function App() {
             <Routes>
               <Route path="/" element={<AppLayout />}>
                 <Route index element={<HomePage />} />
+                <Route path="merge-pdf" element={<MergePdfPage />} />
                 <Route path="image-tools" element={<ImageToolsPage />} />
                 <Route path="pdf-tools" element={<PdfToolsPage />} />
                 <Route path="document-tools" element={<DocumentToolsPage />} />
